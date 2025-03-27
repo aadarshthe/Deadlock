@@ -1,7 +1,7 @@
 # 🚀 AI-Powered Deadlock Detection System
 
 ## 🌟 Overview
-Welcome to the **AI-Powered Deadlock Detection System**—a cutting-edge web application designed to simulate, analyze, and resolve deadlocks in a multi-process environment. Our system provides real-time visualization of system processes and resources, along with AI-driven analysis and resolution mechanisms. Whether you're a student, developer, or system administrator, this tool will help you understand and tackle deadlocks effectively!
+Welcome to the **AI-Powered Deadlock Detection System** a cutting-edge web application designed to simulate, analyze, and resolve deadlocks in a multi-process environment. Our system provides real-time visualization of system processes and resources, along with AI-driven analysis and resolution mechanisms. Whether you're a student, developer, or system administrator, this tool will help you understand and tackle deadlocks effectively!
 
 ## 🎯 Key Features
 ✅ **Real-Time System Visualization** – Watch how processes interact with resources dynamically.
@@ -11,6 +11,15 @@ Welcome to the **AI-Powered Deadlock Detection System**—a cutting-edge web app
 ✅ **User-Friendly UI** – Built with React & TailwindCSS for an intuitive experience.
 
 ## 🛠️ Tech Stack
+- **Languages Used:**
+  - **TypeScript (56.6%)**: The primary language used for development, providing type safety and scalability.
+  - **JavaScript (22.5%)**: Used alongside TypeScript for certain functionalities and compatibility.
+  - **CSS (19.6%)**: Handles the styling and layout of the user interface, ensuring a smooth user experience.
+  - **HTML (1.3%)**: Defines the structure of the web pages and components.
+  - TypeScript (56.6%)
+  - JavaScript (22.5%)
+  - CSS (19.6%)
+  - HTML (1.3%)
 - **Frontend:** React.js, TailwindCSS
 - **Backend:** Node.js, Express.js
 - **AI Integration:** Machine learning models for deadlock detection & resolution
@@ -82,5 +91,6 @@ Before starting, ensure you have:
 
 ## 🤝 Contributing
 We welcome contributions! Feel free to submit issues and pull requests to help improve the project. 🚀
+
 
 
