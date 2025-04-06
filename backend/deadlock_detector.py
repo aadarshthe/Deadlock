@@ -23,7 +23,7 @@ class DeadlockDetector:
                 # Add node for each process
                 self.wait_for_graph.add_node(proc.pid)
                 
-                # Check for potential re
+                # Check for 
                 for other_proc in processes:
                     if proc.pid != other_proc.pid:
                         try:
