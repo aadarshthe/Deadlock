@@ -1,6 +1,8 @@
 # AI-Powered Deadlock Detection System
+⚠️ Notice
+Previously, we had 22 commits, but encountered a deadlock issue that significantly affected the system's functionality. Despite spending considerable time attempting to resolve the problem, it could not be effectively handled at that stage. As a result, we decided to transition to a new system process.
 
-A real-time system monitoring and deadlock detection application that uses AI to predict and prevent deadlocks in running processes.
+Additionally, we faced certain backend issues that were not addressed earlier, as our focus had not yet shifted to the system-level implementation. These backend problems have now been identified and will be worked on moving forward.
 
 ## Features
 
