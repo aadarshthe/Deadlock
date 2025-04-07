@@ -20,10 +20,12 @@ app = FastAPI(title="AI Deadlock Detection System")
 
 # Enable CORS with specific origins
 origins = [
+    "http://127.0.0.1:8002",
     "http://localhost",
     "http://localhost:8002",
-    "http://127.0.0.1",
-    "http://127.0.0.1:8002",
+    "http://127.0.0.1"
+    
+    
 ]
 
 app.add_middleware(
@@ -126,6 +128,7 @@ async def restart_process(pid: int):
 frontend_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")
 app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
 
+import uvicorn
+
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8002) 
+    uvicorn.run("main:app", host="127.0.0.1", port=8003, reload=True)
