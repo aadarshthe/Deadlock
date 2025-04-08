@@ -1,0 +1,28 @@
+This JavaScript application provides a real-time system monitoring dashboard. It fetches system data, such as CPU usage, memory usage, disk usage, process statistics, and deadlock information from a backend API. The dashboard includes a live-updating chart showing deadlock risk and allows the user to manage processes (kill or restart). It also includes notifications to inform the user of any issues, such as connection errors or critical alerts.
+
+Key Features
+Real-time Data Fetching: Periodic polling to update system stats.
+
+Process Management: Option to kill or restart processes.
+
+Deadlock Monitoring: Updates on the current deadlock risk and alerts if any deadlocks are detected.
+
+Live Chart: A real-time line chart to display deadlock risk over time.
+
+Notifications: Displays important messages and status updates.
+
+External Dependencies
+Chart.js: Used for rendering the line chart to display deadlock risk.
+
+Fetch API: Used for making HTTP requests to the backend server.
+
+Constants
+API_URL
+Type: string
+
+Description: The base URL of the backend API that provides system data and process control. The current default is set to 'http://localhost:8002/api'.
+
+POLLING_INTERVAL
+Type: number
+
+Description: The polling interval in milliseconds. The default is set to 1000 milliseconds (1 second), which means the application fetches new data every second.
