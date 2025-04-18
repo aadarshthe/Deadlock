@@ -23,7 +23,7 @@ Additionally, we faced certain backend issues that were not addressed earlier, a
   - Scikit-learn (Machine Learning)
   - WebSockets (Real-time updates)
 
-- **Frontend:** (Coming soon)
+- **Frontend:** 
   - React.js
   - ShadCN UI
   - Tailwind CSS
